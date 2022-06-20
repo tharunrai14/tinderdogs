@@ -1,0 +1,174 @@
+#title
+{
+
+    background-color: #ff4c68;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+h1{
+    font-family: 'Montserrat-Bold';
+   font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+
+}
+
+h2{
+    font-family:'Montserrat-Bold' ;
+    font-size: 3rem;
+    line-height: 1.5;
+    
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+body{
+    font-family: 'monsterrat';
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+   
+    font-family: 'ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.25rem;
+    font-family: 'Monsterrat-Bold';
+    font-weight: 100;
+}
+/*download buttons*/
+.dbutton{
+ margin: 5% 3% 5% 0;
+
+}
+
+.timg{
+    width: 20%;
+    transform: rotate(25deg);
+   position: absolute;
+}
+
+
+h3{
+    font-family: 'Monsterrat-Bold';
+    font-weight: bold;
+    font-size: 2.5rem;
+   
+}
+
+ p{
+
+    color: #8f8f8f;
+}
+.icon {
+    color: #ef8172;
+   margin-bottom: 2px;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+.fel{
+  text-align: center;
+  padding: 2%;
+}
+
+#features{
+    padding: 7% 7% 8% 8%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+   
+}
+
+#testimonials
+{
+  text-align: center;
+    background-color: #ef8172;
+   
+
+    color: #fff;
+}
+.testimonial-image{
+    border-radius: 100%;
+ margin: 20px;
+
+width: 10%;
+
+
+}   
+
+.carousel-item{
+    padding: 7% 15%;
+}
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+   text-align: center;
+    color: #fff;
+
+}
+
+.pressl{
+    width :15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pcol{
+    padding: 3% 2%;
+    
+}
+
+@media (max-width: 1028px){
+
+    .timg{
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+
+    #title{
+        text-align: center;
+    }
+}
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center ;
+    padding: 100px;
+    
+}
+#cta button{
+    margin: 15px;
+}
+#cta h3{
+    color: #fff;
+    padding-bottom: 40px;
+    font-family: 'Monsterrat-Bold';
+    font-weight: bold;
+}
+#footer{
+    padding: 60px;
+    background-color: #fff;
+    text-align: center;
+
+}
+footer i{
+    margin: 20px;
+}
